@@ -1,0 +1,340 @@
+* {
+                margin: 0;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            /* body{
+            
+        } */
+            .general {
+                border: 5px solid black;
+            }
+
+            /* .fila1,
+            .fila2,
+            .fila3,
+            .fila4,
+            .fila5,
+            .fila6,
+            .fila7,
+            .fila8 {
+                border: 3px solid blue;
+            } */
+
+            .fila1 {
+                background-color: white;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40%;
+            }
+
+            #seccion11 {
+                display: grid;
+                grid-template-columns: 30% 70%;
+                align-items: center;
+            }
+
+            #seccion12 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-items: center;
+                align-items: center;
+            }
+
+            #p1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 3px;
+            }
+
+            #p2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 9px;
+            }
+
+            #english {
+                color: #5bb326;
+            }
+
+            .fila2 {
+                display: grid;
+                background-color: #5bb326;
+            }
+
+            .seccion21 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            #drug {
+                display: flex;
+                padding-top: 12px;
+                padding-bottom: 15px;
+                align-items: center;
+            }
+
+            .qg {
+                display: flex;
+                flex-direction: row;
+                padding-bottom: 1%;
+            }
+
+            #q1 {
+                padding-top: 12px;
+            }
+
+            #q1 h4 {
+                text-align: end;
+                color: white;
+                padding-bottom: 7px;
+            }
+
+            #a {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                color: white;
+                font-size: 45px;
+            }
+
+            #e {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                color: white;
+                font-size: 45px;
+            }
+
+            #busqueda {
+                display: flex;
+                border-radius: 5px;
+                overflow: hidden;
+            }
+
+            #busqueda button {
+                background-color: #444;
+                border: none;
+                padding: 8px 12px;
+                cursor: pointer;
+            }
+
+            #busqueda input {
+                flex: 1;
+                padding: 8px;
+                border: none;
+                outline: none;
+                font-size: 14px;
+            }
+
+            #q2 {
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 12px;
+                margin-left: 12px;
+
+            }
+
+            #q2 img {
+                width: 65px;
+                height: 65px;
+            }
+
+            #carrito {
+                display: grid;
+                justify-content: end;
+                align-items: center;
+            }
+
+            #cart {
+                display: grid;
+                align-content: center;
+                justify-content: start;
+            }
+
+            #ult {
+                display: grid;
+                align-items: center;
+                justify-items: center;
+                padding-top: 20px;
+            }
+
+            .seccion22 {
+                display: flex;
+                background-color: #f0eef1;
+                border-radius: 5px;
+            }
+
+            #lado1 {
+                display: flex;
+            }
+
+            #lado1 div {
+                display: grid;
+                align-items: center;
+                padding: 20px 5px 20px 5px;
+                border: 0.1px solid white;
+            }
+
+            #negrito {
+                background-color: #3C3A3C;
+                color: white;
+            }
+
+            .fila3 {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            #señora {
+                margin-top: 3%;
+            }
+
+            .im {
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+
+            #im1,
+            #im2,
+            #im3 {
+                border: 2px solid pink;
+                margin-top: 3%;
+                display: flex;
+            }
+
+            #cd1 {
+                display: grid;
+                grid-template-rows: 40% 60%;
+            }
+
+            #cd2 {
+                background-color: #f0eef1;
+            }
+
+            #tit {
+                background-color: #5bb326;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+            }
+
+            .im img {
+                width: 150px;
+                height: 150px;
+            }
+
+            #prot {
+                display: grid;
+
+            }
+
+            .fila4 {
+                margin-top: 3%;
+                padding: 15px;
+                background-color: #f0eef1;
+            }
+
+            .fila5 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 3%;
+                margin-top: 3%;
+            }
+            .shop{
+                border: 1px solid black;
+                padding: 10px 21px;
+                border: 1px solid #a1a1a178;
+            }
+            .productosimg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+            .shop img{
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+            .compras{
+                display: flex;
+                border-radius: 5px;
+                overflow: hidden;
+            }.compras button{
+                background-color: #444;
+                color: white;
+            }
+            .carrito2 {
+                display: flex;
+                background-color: white;
+            }
+            .carrito2 img {
+                height: 33px;
+                background-color: #5bb326;
+                object-fit: cover;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .sale p{
+                background-color: red;
+                color: white;
+                padding: 5px 10px;
+                font-weight: bold;
+                top: 10px;
+                left: 10px;
+                border-radius: 5px;
+                width: fit-content;
+            }
+            .salen p{
+                background-color: white;
+                color: white;
+                padding: 5px 10px;
+                font-weight: bold;
+                top: 10px;
+                left: 10px;
+                border-radius: 5px;
+                width: fit-content;
+            }
+            .salen{
+                color: white;
+            }
+            .shop h3{
+                color : #5bb326;
+            }.shop h5{
+                color: gray;
+            }
+            .shop .salen, .shop .sale, .shop h3, .shop h4, .shop h5, .compras{
+                margin-bottom: 6px;
+            }
+            .precio{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+            .precio h4{
+                color: rgb(247, 101, 101);
+                text-decoration: line-through;
+            }
+            .recuadromay{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 3%;
+            }
+            .recuadros{
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                padding: 20px;
+                text-align: center;
+                background-color: #f0eef1;
+            }
+            .recuadros h2{
+                color: #5bb326;
+            }
