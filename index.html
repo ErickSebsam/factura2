@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>factura2</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,8 +15,10 @@
         <div class="filas">
             <div class="fila1">
                 <div id="seccion11">
-                    <h4 id="english">▶ Contact</h4>
-                    <h4>▶ Sitemap</h4>
+                    <h4 id="english">
+                        <p>▶ </p> Contact
+                    </h4>
+                    <h4 id="sitemap"><p>▶</p> Sitemap</h4>
                 </div>
                 <div id="seccion12">
                     <div id="p1">
@@ -46,11 +50,12 @@
                         <div id="q2">
                             <div id="carrito">
                                 <img src="carrito.png">
-                            </div>
-                            <div id="cart">
+                                <div id="cart">
                                 <h4>Cart</h4>
-                                <h4>(empty)</h4>
+                                <h5>(empty)</h5>
                             </div>
+                            </div>
+                            
                             <div id=ult>
                                 <h4>▼</h4>
                             </div>
@@ -62,58 +67,61 @@
                         <div id="negrito">
                             <h4>Child Care</h4>
                         </div>
-                        <div>
+                        <div class="nonegrito">
                             <h4>Cosmetics</h4>
                         </div>
-                        <div>
+                        <div class="nonegrito">
                             <h4>Diet & Nutrition</h4>
                         </div>
-                        <div>
+                        <div class="nonegrito">
                             <h4>Gifts & Specialty</h4>
                         </div>
-                        <div>
+                        <div class="nonegrito">
                             <h4>Natural Products</h4>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="fila3">
                 <img id="señora" src="señora.png">
                 <div class="im">
                     <div id="im1">
-                        <div id="cd1">
-                            <h4 id="tit">Lorem ipsum dolor sit amet conse</h4>
+                        <div>
+                            <div id="cd1">
+                                Lorem ipsum dolor sit amet conse
+                            </div>
                             <div id="cd2">
-                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                <img src="im1.png">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit</h5>
                                 <h4>Our Price:</h4>
                                 <h3>$189.99</h3>
                             </div>
                         </div>
-                        <img src="im1.jpeg">
                     </div>
                     <div id="im2">
-                        <div id="cd1">
-                            <h4 id="tit">Nisi ut aliquip ex ea commodo</h4>
+                        <div>
+                            <div id="cd1">
+                                Nisi ut aliquip ex ea commodo
+                            </div>
                             <div id="cd2">
-                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                <img src="im2.png">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit</h5>
                                 <h4>Our Price:</h4>
                                 <h3>$29.99</h3>
                             </div>
                         </div>
-                        <img src="im2.jpeg">
                     </div>
                     <div id="im3">
-                        <div id="cd1">
-                            <h4 id="tit">Duis aute irure dolor in reprehenderit</h4>
+                        <div>
+                            <div id="cd1">
+                                Duis aute irure dolor in reprehenderit
+                            </div>
                             <div id="cd2">
-                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                                <img id="imagen3" src="im3.png">
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit</h5>
                                 <h4>Our Price:</h4>
                                 <h3>$37.99</h3>
                             </div>
-                        </div>
-                        <div id="prot">
-                            <img src="im3.png">
                         </div>
                     </div>
                 </div>
@@ -134,8 +142,8 @@
                     <h4>Sunt in culpa qui officia dese nunt mollit nnim id</h4>
                     <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
                     <div class="compras">
-                        <button>Add to cart</button>
-                        <div class="carrito2"><img src="carrito2.png"></div>
+                        <button id="buttonx">Add to cart</button>
+                        <div class="carrito3"><img src="carrito2.png"></div>
                     </div>
                     <h4>View ▶</h4>
                 </div>
@@ -262,56 +270,93 @@
             </div>
             <div class="fila6">
                 <div class="recuadromay">
-                <div class="recuadros">
-                    <h2>Free Shipping</h2>
-                    <h4>On orders over $99</h4>
-                    <h5>Lorem ipsum dolor ist arref. conceciutr adipcicing</h5>
-                </div>
-                <div class="recuadros">
-                    <h2>Clearance</h2>
-                    <h4>Get up to 25% off</h4>
-                    <h5>Lorem ipsum dolor ist arref. conceciutr adipcicing</h5>
-                </div>
-                <div class="recuadros">
-                    <h2>Call Us</h2>
-                    <h4>1(234) 567-9842</h4>
-                    <h5>Lorem ipsum dolor ist arrel. conceciutr adipcicing</h5>
-                </div>
+                    <div class="recuadros">
+                        <h2>Free Shipping</h2>
+                        <h4>On orders over $99</h4>
+                        <h5>Lorem ipsum dolor ist arref. conceciutr adipcicing</h5>
+                    </div>
+                    <div class="recuadros">
+                        <h2>Clearance</h2>
+                        <h4>Get up to 25% off</h4>
+                        <h5>Lorem ipsum dolor ist arref. conceciutr adipcicing</h5>
+                    </div>
+                    <div class="recuadros">
+                        <h2>Call Us</h2>
+                        <h4>1(234) 567-9842</h4>
+                        <h5>Lorem ipsum dolor ist arrel. conceciutr adipcicing</h5>
+                    </div>
                 </div>
             </div>
             <div class="fila7">
-                <h4>Information</h4>
-                <h5>▶ Specials</h5>
-                <h5>New products</h5>
-                <h5>Best selers</h5>
-                <h5>Our more(5)</h5>
-                <h5>Contact us</h5>
-                <h5>Pages configuration</h5>
-                <h5>Sitemac</h5>
-
-                <h4>My Account</h4>
-                <h5>▶ My orders</h5>
-                <h5>▶ My merchandise returns</h5>
-                <h5>▶ My credit slips</h5>
-                <h5>▶ My addresses</h5>
-                <h5>▶ My personal info</h5>
-
-                <h4>Follow Us</h4>
-                <h5>▶ Facebook</h5>
-                <h5>▶ Twitter</h5>
-                <h5>▶ RSS</h5>
-
-                <h4>Contacts</h4>
-                <h5>My company</h5>
-                <h5>4578 Marmora Fload. Glasgom 904 89OR</h5>
-                <h5>Tel 1(234) 567-9842</h5>
-                <h5>Email info@deolink.org</h5>
+                <div class="info">
+                    <h4>Information</h4>
+                    <h5 id="Special">
+                        <p>▶ </p> Specials
+                    </h5>
+                    <h5>
+                        <p>▶ </p> products
+                    </h5>
+                    <h5>
+                        <p>▶ </p> Best selers
+                    </h5>
+                    <h5>
+                        <p>▶ </p> Our more(5)
+                    </h5>
+                    <h5>
+                        <p>▶ </p> Contact us
+                    </h5>
+                    <h5>
+                        <p>▶ </p> Pages configuration
+                    </h5>
+                    <h5>
+                        <p>▶ </p> Sitemac
+                    </h5>
+                </div>
+                <div class="info">
+                    <h4>My Account</h4>
+                    <h5>
+                        <p>▶ </p> My orders
+                    </h5>
+                    <h5>
+                        <p>▶ </p> My merchandise returns
+                    </h5>
+                    <h5>
+                        <p>▶ </p> My credit slips
+                    </h5>
+                    <h5>
+                        <p>▶ </p> My addresses
+                    </h5>
+                    <h5>
+                        <p>▶ </p> My personal info
+                    </h5>
+                </div>
+                <div class="info">
+                    <h4>Follow Us</h4>
+                    <h5>
+                        <img src="twiter.png" alt=""> Facebook
+                    </h5>
+                    <h5>
+                        <img src="facebook.png" alt=""> Twitter
+                    </h5>
+                    <h5>
+                        <img src="inter.png" alt=""> RSS
+                    </h5>
+                </div>
+                <div class="info">
+                    <h4>Contacts</h4>
+                    <h5 id="contact">My company</h5>
+                    <h5>4578 Marmora Fload. Glasgom 904 89OR</h5>
+                    <h5 id="contact">Tel 1(234) 567-9842</h5>
+                    <h5 id="contact">Email <p>info@deolink.org</p>
+                    </h5>
+                </div>
             </div>
             <div class="fila8">
-                @ 2014 Possmsd by PrslsShojo
+                <h5>@ 2014 Possmsd by PrslsShojo</h5>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
