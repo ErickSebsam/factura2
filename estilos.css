@@ -654,8 +654,8 @@
   #lado1 {
     flex-direction: column;
   }
-  #negrito, #nonegrito{
-    padding: 15px 5px;
+  #negrito, .nonegrito{
+    padding: 10px 5px;
   }
   #a {
     font-size: 75px;
